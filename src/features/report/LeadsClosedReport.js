@@ -49,7 +49,7 @@ const LeadsClosedReport = ({ leads }) => {
           Total Leads closed and Leads in Pipeline:
         </h3>
         <div style={{ position: "relative", height: "350px" }}>
-          <Pie data={chartData} options={chartOptions} className="w-100 p-4" />
+          <Pie data={chartData} options={chartOptions} className="w-100 m-1" />
         </div>
       </div>
     </div>

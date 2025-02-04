@@ -60,7 +60,7 @@ const LeadsByStatus = ({ leads = [] }) => {
       <div className="card bg-light text-dark p-3 border-0 shadow">
         <h3 className="card-title text-center">Leads Per Status:</h3>
         <div style={{ position: "relative", height: "350px" }}>
-          <Pie data={chartData} options={chartOptions} className="w-100 p-4" />
+          <Pie data={chartData} options={chartOptions} className="w-100 m-1" />
         </div>
       </div>
     </div>
